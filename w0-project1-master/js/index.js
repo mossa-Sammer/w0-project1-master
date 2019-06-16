@@ -105,7 +105,7 @@ Array.from(navLinks).forEach((child)=>{
 
 });
 
-//Make to links
+//Make the links
 let links = [];
 for(let i=0;i<2;++i){
   let link = document.createElement('a');
