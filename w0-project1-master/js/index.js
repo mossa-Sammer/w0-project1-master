@@ -109,7 +109,7 @@ Array.from(navLinks).forEach((child)=>{
 let links = [];
 for(let i=0;i<2;++i){
   let link = document.createElement('a');
-  link.appendChild(document.createTextNode('link'+i));
+  link.textContent='link'+i;
   links.push(link);
 }
 
